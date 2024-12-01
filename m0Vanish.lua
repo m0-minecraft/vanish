@@ -12,7 +12,6 @@ function Initialize(Plugin)
   -- Command Bindings
 
   cPluginManager.BindCommand("/vanish", "m0Vanish.perm", Vanish, "Sets you in spectator and shows that you are not online/left")
-  cPluginManager.BindCommand("/v", "m0Vanish.perm", Vanish, "Same as /vanish but shortend command")
   return true
 end
 
